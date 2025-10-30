@@ -1,0 +1,37 @@
+Abstarct Class:
+-> it contains both abstract and concrete method.it is need to share code among several related classes. It is partial implementation of abstraction.
+Abstraction:
+-> it is the process of hiding complex implementation details and showing only the necessary features of an object. it helps manage complexity by hiding unnecessary
+details and exposing only relevant features to the user.
+encapsulation:
+-> it is process of bundling the data and the methods that operate on that data with single unit or object, keeping internal working hidden from outside world
+   it helps to achieve data hiding and abstraction.
+Inheritance:
+->It allows a class to inherit properties and methods from another class.it establishes relationship as parent and child
+1. single inheritance:one parent to one child
+2. multiple inheritance:  A class implements multiple interfaces (Java does not allow extending multiple classes).
+3. multilevel inheritance: A chain of inheritance: grandparent → parent → child.
+4. hierarchical inheritance: One parent class with multiple child classes.
+5. hybrid inheritance: A mix of class inheritance + multiple interfaces.
+
+Interface:
+->it is a contract that specifies what a class must do without dictating how it should do it. it defines a set of abstract methods that implementing classes must
+provide. interface enables polymorphism and helps achieve loose coupling in software design.
+
+Polymorphism:
+->The ability of an object to take on many forms. In object-oriented programming, this typically manifests as objects of different classes being treated as instances
+of a common superclass or implementing a common interface. This includes method overloading (compile-time polymorphism) and method overriding (runtime polymorphism).
+
+KEY POINTS:
+-> static methods can be accessed directly but public methods only be accessed by object.
+-> super is used for accessing attribute or methods from the parent class in the subclass.
+-> Tight coupling: where two or more classes or components are highly dependent on each other, meaning changes in one component often necessitate changes in the other.
+This dependency typically arises when one class directly instantiates another concrete class or directly accesses its internal implementation details.
+-> loose coupling:designing a system where components or classes have minimal dependencies on each other, interacting through stable, abstract interfaces rather than concrete
+ implementations. This separation makes the system more flexible, maintainable, and testable.
+
+Solid principles:
+----------------
+Single Responsibility Principle:
+-> Class should have only one reason to change, it means it should have only one job or one responsibility. This principle helps create more maintainable and flexible code
+by ensuring that classes are focused and cohesive
