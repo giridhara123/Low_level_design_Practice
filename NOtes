@@ -1,4 +1,8 @@
-Abstarct Class:
+Enums:
+->It is a special data type that defines a collections of constant values under a single name.unlike primitive constants or string literals, enums are type-safe, which means you cant assign
+just any value to a variable declared as an enum type.
+-> In enum class all the fields are private and final because outside class should not access and it should be immutable.
+Abstract Class:
 -> it contains both abstract and concrete method.it is need to share code among several related classes. It is partial implementation of abstraction.
 Abstraction:
 -> it is the process of hiding complex implementation details and showing only the necessary features of an object. it helps manage complexity by hiding unnecessary
@@ -6,6 +10,8 @@ details and exposing only relevant features to the user.
 encapsulation:
 -> it is process of bundling the data and the methods that operate on that data with single unit or object, keeping internal working hidden from outside world
    it helps to achieve data hiding and abstraction.
+  -> encapsulation is achieved by access modifiers, getters and setters( like private public and protected and public getters and setters are used to controlled indirect access to private
+     attributes)
 Inheritance:
 ->It allows a class to inherit properties and methods from another class.it establishes relationship as parent and child
 1. single inheritance:one parent to one child
@@ -35,3 +41,14 @@ Solid principles:
 Single Responsibility Principle:
 -> Class should have only one reason to change, it means it should have only one job or one responsibility. This principle helps create more maintainable and flexible code
 by ensuring that classes are focused and cohesive
+Signs of SRP Violation:
+1.Large classes with many methods
+2.Methods that manipulate different types of data
+3.Classes that change for multiple reasons
+4.Methods with side effects
+What are the benefits of following SRP?
+1.Easier maintenance
+2.Better testability
+3.Reduced coupling
+4.Improved reusability
+
